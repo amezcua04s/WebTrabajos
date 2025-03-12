@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Telefónica</title>
+    <script src="js/contacto.js"></script>
+</head>
+<body>
+    <h2>Agenda Telefónica</h2>
+    <form id="contactoForm">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="primerApellido" placeholder="Primer Apellido" required>
+        <input type="text" id="segundoApellido" placeholder="Segundo Apellido" required>
+        <input type="tel" id="telefono" placeholder="Teléfono" required>
+        <select id="tipoTelefono">
+            <option value="Móvil">Móvil</option>
+            <option value="Fijo">Fijo</option>
+        </select>
+        <input type="date" id="fechaNacimiento" required>
+        <button type="button" onclick="agregarContacto()">Agregar</button>
+    </form>
+
+    <h3>Lista de Contactos</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Primer Apellido</th>
+                <th>Segundo Apellido</th>
+                <th>Teléfono</th>
+                <th>Tipo</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="tablaContactos"></tbody>
+    </table>
+</body>
+</html>

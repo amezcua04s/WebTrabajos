@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de arreglos</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/lista.js"></script>
+</head>
+<body>
+
+    <h1>Gestión de elementos de un arreglo</h1>
+
+    
+
+    <input type="text" id="nuevoElemento" placeholder="Agregar un nuevo  elemento">
+    <button id="btnAgregar" onclick="agregarElemento()">Agregar</button>
+
+    <br>
+    
+    <input type number id="indiceBuscar" placeholder="Indice del elemento a buscar">
+    <input type="text" id="indiceModificar" placeholder="Valor a modificar del elemento">
+    <button id="btnModificar" onclick="modificarElemento()">Modificar</button>
+
+    <br>
+
+    <select id="listaElementos" size="5"></select>
+    <button onclick="eliminarElemento()">Eliminar</button>
+
+    <br>
+
+    <h2>Esta es la lista de elementos del arreglo</h2>
+    <p id="mostrarElementos"></p>
+    <img src="img/cartoon-cat-6761858_640.webp" alt="Este atributo describe una imagen">
+</body>
+</html>

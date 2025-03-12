@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/cargar.js" ></script>
+    <title>Etiquetas</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <ul>
+
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="etiquetas.html">Etiquetas</a></li>
+                <li><a href="">Formulario</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Encabezado principal</h1>
+    <h2>Encabezados subsecuentes</h2>
+    <h3>Encabezados subsecuentes</h3>
+    <p>Etiqueta parrafo</p>
+    <a href="#">Esto es un enlace o hipervinculo</a>
+    <br>
+    <img src="img/cartoon-cat-6761858_640.webp" alt="Este atributo describe una imagen">
+    <br>
+
+    <table>
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Apellido
+            </th>
+        </tr>
+        <tr>
+            <td>
+                Santiago
+            </td>
+            <td>
+                Amezcua
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Juan
+            </td>
+            <td>
+                Perez
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Maria
+            </td>
+            <td>
+                Lopez
+            </td>
+    </table>
+
+    <form>
+        <label>Nombre para:</label>
+        <input type="text" name="nombre"> 
+        <label>Apellido:</label>
+        <input type="text" name="apellido">
+        <br>
+        <label>Fecha y hora de la cita:</label>
+        <input type="datetime-local" name="fecha">
+
+    </form>
+
+    <div id="imagen-container">
+        <img id="imagen-api" alt="Imagen cargada desde API" style="display: none;">
+    </div>
+
+<button id="cargar-imagen-btn" >Cargar imagen</button>
+
+</body>
+</html>
