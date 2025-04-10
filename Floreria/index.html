@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script src="js/main.js"></script>
+    <title>Florería</title>
+</head>
+<body>
+    <div class="container-fluid mt-4">
+        <h1>Florería</h1>
+    
+        <div class="responsive cen">
+            <div id="carousel" class="carousel slide cuadro" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" ></button>
+                  <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" ></button>
+
+                </div>
+                <div class="carousel-inner cen foto normal">
+                  
+                  <div class="carousel-item active cen normal"> 
+                    <img src="/img/descuentos.webp" class="tam d-block w-100 foto" alt="imagenWeb">
+                    <div class="carousel-caption pie">
+                      <h5>Descuentos de temporada</h5>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item cen foto">
+                    <img src="./img/magnolia.jpg" onclick="blog()" class="tam d-block w-100 foto" alt="...">
+                    <div class="carousel-caption pie">
+                      <h5>Producto de temporada. (Mangolias)</h5>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item cen foto">
+                    <img src="/img/blog.webp"  onclick="blog()" class="d-block w-100" alt="imagenWeb">
+                    <div class="carousel-caption pie">
+                      <h5>Saber más</h5>
+
+                    </div>
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <br>
+        <hr>
+        <div class="container cen">
+
+            <h2>Productos destacados</h2>
+            <p>Estos son algunos de nuestros productos destacados. Puedes ver más en nuestro blog.</p>
+
+            <!--CARDS-->
+          <div class="row justify-content-center" id="cards">
+
+          </div>
+
+      </div>
+    </div>
+
+
+    <footer class="bg-dark text-white pt-5" style="width: 100%;">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-md-4 mb-4">
+                  <h5 class="text-uppercase mb-4">Síguenos</h5>
+                  <div class="social-icons">
+                      <a href="https://facebook.com" class="text-white me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+                      <br>
+                      <a href="https://instagram.com" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                      <br>
+                      <a href="https://x.com" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                  </div>
+              </div>
+  
+              <div class="col-12 col-md-4 mb-4">
+                  <h5 class="text-uppercase mb-4">Visítanos</h5>
+                  <address class="mb-4">
+                      <i class="fas fa-map-marker-alt me-2"></i> Av. Flores 1234<br>
+                      Colonia Jardín<br>
+                      Ciudad de México, 01000
+                  </address>
+                  <div class="subscribe-form">
+                      <h6 class="mb-3">Suscríbete a nuestro boletín</h6>
+                      <div class="input-group">
+                          <input type="email" class="form-control" placeholder="Tu correo">
+                          <button class="btn btn-primary" type="button">Suscribir</button>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col-12 col-md-4">
+                  <h5 class="text-uppercase mb-4">Enlaces</h5>
+                  <ul class="list-unstyled">
+                      <li class="mb-2"><a href="#" class="text-white text-decoration-none">Quiénes somos</a></li>
+                      <li class="mb-2"><a href="#" class="text-white text-decoration-none">Sucursales</a></li>
+                      <li class="mb-2"><a href="#" class="text-white text-decoration-none">Mapa del sitio</a></li>
+                  </ul>
+              </div>
+          </div>
+  
+      </div>
+      <div class="row mt-4">
+        <div class="col-12 text-center">
+            <hr class="mb-4">
+            <p class="mb-0">&copy; 2025 Florería Magnolia. Todos los derechos reservados.</p>
+        </div>
+    </div>
+  </footer>
+    
+</body>
+</html>

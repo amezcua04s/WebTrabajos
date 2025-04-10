@@ -17,7 +17,10 @@ function agregarContacto() {
 
 function actualizarTabla() {
     let tabla = document.getElementById("tablaContactos");
+    let listaMovil = document.getElementById("listaContactosMovil");
+
     tabla.innerHTML = "";
+    listaMovil.innerHTML = "";
     listaContactos.forEach((contacto, index) => {
         let fila = `<tr>
             <td>${contacto.nombre}</td>
@@ -26,9 +29,21 @@ function actualizarTabla() {
             <td>${contacto.telefono}</td>
             <td>${contacto.tipoTelefono}</td>
             <td>${contacto.fechaNacimiento}</td>
-            <td><button onclick="eliminarContacto(${index})">Eliminar</button></td>
+            <td><button class="btn btn-danger" onclick="eliminarContacto(${index})">Eliminar</button></td>
         </tr>`;
         tabla.innerHTML += fila;
+    
+        let itemMovil = `<li class="list-group-item">
+        <strong>Nombre:</strong> ${contacto.nombre} ${contacto.primerApellido} ${contacto.segundoApellido}<br>
+        <strong>Telefono:</strong> ${contacto.telefono} (${contacto.tipoTelefono})<br>
+        <strong>Nacimiento:</strong> ${contacto.fechaNacimiento}<br>
+        <button class="btn btn-danger" onclick="eliminarContacto(${index})">Eliminar</button>
+        </li>`
+        ;
+
+        listaMovil.innerHTML += itemMovil;
+
+    
     });
 }
 

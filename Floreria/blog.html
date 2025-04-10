@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="./js/blog.js"></script>
+    <title>Blog</title>
+</head>
+<body>
+    <div class="container-fluid mt-4">
+        <h1 class="text-center mt-3">Blog de la florería</h1>
+        <hr>
+        <p class="text-center mt-2 text-muted small">Click para regresar al inicio</p>
+        <div class="text-center">
+            <img src="/img/flor_abril.jpg" onclick="inicio()" class="img-thumbnail blog" alt="..." id="blog" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="mt-3">
+            <h5 class="p-2 text-white" style="background-color: rgb(23, 70, 0);">Flor del mes: Magnolia</h5>
+            <p class="mt-2">Las magnolias son un grupo de árboles o arbustos con flores que pertenecen a la familia Magnoliaceae.<br>
+                 Estas plantas son apreciadas por su amplio valor ornamental pero también tienen una gran importancia en biología, medicina e industria.</p>
+        </div>
+    </div>
+
+    <div class="container-fluid px-3 px-md-5">
+        <div class="row justify-content-center mb-4 mb-md-5">
+            <div class="col-12 col-md-8 text-center">
+                <h1 class="display-5 display-md-4 mb-3 fw-bold">El Arte de las Flores</h1>
+                <p class="text-muted"><strong>Florería Magnolia</strong></p>
+            </div>
+        </div>
+
+        <div class="row mb-4 mb-md-5">
+            <div class="col-12 text-center">
+                <img src="/img/arregloBlog.jpg" alt="Arreglo floral" class="img-fluid rounded shadow-sm" style="max-width: 100%; height: auto;">
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <p class="lead fst-italic">En Florería Magnolia creemos que cada flor cuenta una historia.</p>
+                
+                <h2 class="mt-4 mt-md-5 mb-3 fw-bold border-bottom pb-2">La Importancia de la Temporada</h2>
+                <p>Las flores de temporada no solo son más frescas, sino que también tienen un menor impacto ambiental.</p>
+                
+                <div class="row mb-4">
+                    <div class="col-12 col-md-6 mb-3 mb-md-0">
+                        <img src="/img/primavera.jpg" alt="Flores primavera" class="img-fluid rounded shadow-sm w-100">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="/img/proceso.jpg" alt="Proceso floral" class="img-fluid rounded shadow-sm w-100">
+                    </div>
+                </div>
+                
+                <h2 class="mt-4 mt-md-5 mb-3 fw-bold border-bottom pb-2">Nuestro Proceso</h2>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Paleta de colores estacional</li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Combinación de texturas</li>
+                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Significado floral</li>
+                    <li><i class="bi bi-check-circle-fill text-success me-2"></i>Recipiente adecuado</li>
+                </ul>
+                
+                <div class="ratio ratio-16x9 my-4 my-md-5 bg-dark rounded">
+                    <iframe src="https://www.youtube.com/embed/ixb9BfHMa_w?si=zYfVc4icvYdUdDxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                
+                <h2 class="mt-4 mt-md-5 mb-3 fw-bold border-bottom pb-2">Cuidado de Flores</h2>
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item border-0 ps-0">Corta tallos en diagonal</li>
+                    <li class="list-group-item border-0 ps-0">Cambia agua cada 2 días</li>
+                    <li class="list-group-item border-0 ps-0">Evita luz solar directa</li>
+                    <li class="list-group-item border-0 ps-0">Remueve hojas bajo agua</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4 mt-md-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <h2 class="mb-3 mb-md-4 text-center">Deja tu comentario</h2>
+                <form class="needs-validation" id="comentarioForm" novalidate>
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6">
+                            <label for="nombre" class="form-label">Nombre*</label>
+                            <input class="form-control" type="text" id="nombre" placeholder="Nombre" required>
+                        </div>
+                        
+                        <div class="col-12 col-md-6">
+                            <label for="apellido" class="form-label">Apellido*</label>
+                            <input class="form-control" type="text" id="apellido" placeholder="Apellido" required>
+                        </div>
+                        
+                        <div class="col-12">
+                            <label for="comentario" class="form-label">Comentario*</label>
+                            <textarea class="form-control" id="comentario" rows="4" required></textarea>
+                        </div>
+                        
+                        <div class="col-12 text-center mt-3">
+                            <button class="btn btn-primary" type="button" onclick="agregarComentario()">Enviar comentario</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="mt-4 mt-md-5">
+        <h3 class="text-primary-emphasis text-center">Comentarios</h3>
+        <br>
+        <div class="table-responsive d-none d-md-block">
+            <table class="table table-striped table-bordered mt-5">
+                <thead class="table-secondary">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Comentario</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaComentarios"></tbody>
+            </table>
+        </div>
+    
+       <div class="d-block d-md-none">
+        <ul class="list-group mt-5" id="listaComentariosMovil"></ul>
+       </div> 
+    </div>
+
+    <footer class="bg-dark text-white pt-5" style="width: 100%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <h5 class="text-uppercase mb-4">Síguenos</h5>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" class="text-white me-3"><i class="fab fa-facebook-f fa-md"></i></a>
+                        <br>
+                        <a href="https://instagram.com" class="text-white me-3"><i class="fab fa-instagram fa-md"></i></a>
+                        <br>
+                        <a href="https://x.com" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-md-4 mb-4">
+                    <h5 class="text-uppercase mb-4">Visítanos</h5>
+                    <address class="mb-4">
+                        <i class="fas fa-map-marker-alt me-2"></i> Av. Flores 1234<br>
+                        Colonia Jardín<br>
+                        Ciudad de México, 01000
+                    </address>
+                    <div class="subscribe-form">
+                        <h6 class="mb-3">Suscríbete a nuestro boletín</h6>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Tu correo">
+                            <button class="btn btn-primary" type="button">Suscribir</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-md-4">
+                    <h5 class="text-uppercase mb-4">Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Quiénes somos</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Sucursales</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Mapa del sitio</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+        </div>
+        <div class="row mt-4">
+          <div class="col-12 text-center">
+              <hr class="mb-4">
+              <p class="mb-0">&copy; 2025 Florería Magnolia. Todos los derechos reservados.</p>
+          </div>
+      </div>
+    </footer>
+</body>
+</html>

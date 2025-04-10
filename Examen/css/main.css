@@ -1,0 +1,53 @@
+@media (min-width: 500px) { 
+    .cen{
+        padding-top: 0%;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 0%;
+    }
+
+    img{
+        width: 400px;
+        height: 600px;
+        margin: 10px;
+    }
+
+}
+
+img{
+    height: auto;
+    margin: 10px;
+}
+
+
+.cen{
+    align-items: center;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-left: 0%;
+
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+
+.cont{
+    border-radius: 1%;
+    border-color: black;
+    background-color: rgba(4, 44, 80, 0.71);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "gs417I7bPP60UZdhXcvnGJfKECdmrTW9TdMd3d6jwek=",
+  "Source": "DoctorApi",
+  "BasePath": "_content/DoctorApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
