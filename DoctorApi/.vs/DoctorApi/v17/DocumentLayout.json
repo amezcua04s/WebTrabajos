@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|c:\\users\\santi\\desktop\\fca\\webtrabajos\\doctorapi\\sqlquery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|solutionrelative:sqlquery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|c:\\users\\santi\\desktop\\fca\\webtrabajos\\doctorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|c:\\users\\santi\\desktop\\fca\\webtrabajos\\doctorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|c:\\users\\santi\\desktop\\fca\\webtrabajos\\doctorapi\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|solutionrelative:models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|c:\\users\\santi\\desktop\\fca\\webtrabajos\\doctorapi\\migrations\\apidbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|solutionrelative:migrations\\apidbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|c:\\users\\santi\\desktop\\fca\\webtrabajos\\doctorapi\\migrations\\20250410125334_addentitydoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|solutionrelative:migrations\\20250410125334_addentitydoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|c:\\users\\santi\\desktop\\fca\\webtrabajos\\doctorapi\\controllers\\doctorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|solutionrelative:controllers\\doctorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|c:\\users\\santi\\desktop\\fca\\webtrabajos\\doctorapi\\data\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|solutionrelative:data\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|c:\\users\\santi\\desktop\\fca\\webtrabajos\\doctorapi\\sqlquery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|solutionrelative:sqlquery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|c:\\users\\santi\\desktop\\fca\\webtrabajos\\doctorapi\\doctorapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D6920953-6B2C-4FF6-B245-B4BED200B4B7}|DoctorApi.csproj|solutionrelative:doctorapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,100 +21,34 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApiDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\Migrations\\ApiDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\ApiDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\Migrations\\ApiDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\ApiDbContextModelSnapshot.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T12:54:59.856Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SQLQuery1.sql ",
-              "DocumentMoniker": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\SQLQuery1.sql",
-              "RelativeDocumentMoniker": "SQLQuery1.sql",
-              "ToolTip": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\SQLQuery1.sql",
-              "RelativeToolTip": "SQLQuery1.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-10T12:53:49.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB/AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T12:43:11.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\Models\\Doctor.cs",
-              "RelativeDocumentMoniker": "Models\\Doctor.cs",
-              "ToolTip": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\Models\\Doctor.cs",
-              "RelativeToolTip": "Models\\Doctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T12:42:25.327Z"
+              "WhenOpened": "2025-04-25T15:34:40.265Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-10T12:42:27.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20250410125334_AddEntityDoctor.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\Migrations\\20250410125334_AddEntityDoctor.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250410125334_AddEntityDoctor.cs",
-              "ToolTip": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\Migrations\\20250410125334_AddEntityDoctor.cs",
-              "RelativeToolTip": "Migrations\\20250410125334_AddEntityDoctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T13:01:16.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DoctoresController.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\Controllers\\DoctoresController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DoctoresController.cs",
-              "ToolTip": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\Controllers\\DoctoresController.cs",
-              "RelativeToolTip": "Controllers\\DoctoresController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwBUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T12:43:14.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApiDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\Data\\ApiDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApiDbContext.cs",
-              "ToolTip": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\Data\\ApiDbContext.cs",
-              "RelativeToolTip": "Data\\ApiDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T12:42:22.997Z"
+              "Title": "DoctorApi.http",
+              "DocumentMoniker": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\DoctorApi.http",
+              "RelativeDocumentMoniker": "DoctorApi.http",
+              "ToolTip": "C:\\Users\\santi\\Desktop\\FCA\\WebTrabajos\\DoctorApi\\DoctorApi.http",
+              "RelativeToolTip": "DoctorApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-25T01:12:20.756Z",
+              "EditorCaption": ""
             }
           ]
         }

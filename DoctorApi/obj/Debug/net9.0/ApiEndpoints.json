@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "DoctorApi.Controllers.DoctoresController",
-    "Method": "GetAlumnos",
+    "Method": "GetDoctor",
     "RelativePath": "api/Doctores",
     "HttpMethod": "GET",
     "IsController": true,
@@ -28,15 +28,19 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "doctor",
+        "Type": "DoctorApi.Models.Doctor",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "DoctorApi.Models.Doctor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -81,18 +85,12 @@
         "IsRequired": true
       },
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "doctor",
+        "Type": "DoctorApi.Models.Doctor",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "DoctorApi.Controllers.DoctoresController",
@@ -108,13 +106,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "DoctorApi.Controllers.WeatherForecastController",
